@@ -20,6 +20,11 @@ This repository contains Python exercises completed during the Bioinformatics la
 - **Exercise 1:** Read the Abisko virus genome from a FASTA file, count the frequencies of all 64 possible nucleotide triplets using a sliding window of 3 positions, and display the 10 most frequent.
 - **Exercise 2:** Use the OpenAI API to generate food and drink recommendations based on the virus identity, without deriving medical recommendations from codon frequencies.
 
+## Lab 4 – Genome Reconstruction
+
+- **Exercise 1:** Read the Abisko virus genome from a FASTA file, generate 20,000 random DNA fragments of 100–150 nucleotides, and save them to a file.
+- **Exercise 2:** Reconstruct the original genome using a greedy algorithm that merges overlapping fragments, considering only overlaps of at least 10 nucleotides. Compare the reconstructed genome with the original to verify the result.
+
 ## Technologies
 
 - Python
