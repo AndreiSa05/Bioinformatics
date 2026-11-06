@@ -32,6 +32,11 @@ This repository contains Python and C++ exercises completed during the Bioinform
 
 **Note:** Exercise 2 was implemented independently, without using AI (scary, I know).
 
+## Lab 6 – Transposable Elements Detection
+
+- **Exercise 1:** Generate an artificial DNA sequence of 200–400 nucleotides containing 3–4 transposable elements. Insert inverted and direct repeats, then detect the start and end positions of the transposons.
+- **Exercise 2:** Read the Abisko virus genome from a FASTA file and identify potential transposable elements using sliding windows of lengths 6–8. Search for reverse-complementary sequences without knowing the inverted repeats beforehand, and record their start and end positions.
+
 ## Technologies
 
 - Python
