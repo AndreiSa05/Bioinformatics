@@ -37,9 +37,19 @@ This repository contains Python and C++ exercises completed during the Bioinform
 - **Exercise 1:** Generate an artificial DNA sequence of 200–400 nucleotides containing 3–4 transposable elements. Insert inverted and direct repeats, then detect the start and end positions of the transposons.
 - **Exercise 2:** Read the Abisko virus genome from a FASTA file and identify potential transposable elements using sliding windows of lengths 6–8. Search for reverse-complementary sequences without knowing the inverted repeats beforehand, and record their start and end positions.
 
-## Technologies
+## Lab 7 – Restriction Enzymes and Transposon Simulation
+
+- **Exercise 1:** Read the Abisko virus genome from a FASTA file, test all 10 combinations of 3 restriction enzymes selected from 5, calculate cleavage positions and DNA fragment lengths, and simulate gel electrophoresis using Matplotlib.
+- **Exercise 2:** Generate random DNA sequences containing artificial transposons with inverted repeats separated by at least 10 nucleotides. Simulate normal, overlapping, and nested transposons, detect their positions, sequences, and lengths, and visualize the results using Matplotlib.
+
+## Lab 8 – DNA Sequence Alignment and Promoter Patterns
+
+- **Exercise 1:** Implement a software application that aligns two DNA sequences using the Needleman–Wunsch algorithm.
+- **Exercise 2:** Implement a software application that makes DNA patterns from DNA sequences of gene promoters. Compute the (C+G)% and information content values from each sliding window (SW).
+
+## *Technologies*
 
 - Python
 - C++ (Lab 5, Exercise 2)
-- Matplotlib (Lab 5, Exercise 1)
+- Matplotlib (Labs 5, 7, 8)
 - OpenAI API (Lab 3, Exercise 2)
